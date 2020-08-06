@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: |
           mkdir build
-          echo "artisandigital.xyz" > build/index.html
+          rsync -a src/ build/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
