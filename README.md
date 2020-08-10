@@ -1,8 +1,8 @@
 # OKR Game
 ```
 ## Http Server
-npm install -g http-server
+npm install -g serve
 
 ## How to run game
-http-server -o
+serve
 ```
