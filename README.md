@@ -1,6 +1,8 @@
-# artisandigital.xyz
+# OKR Game
+```
+## Http Server
+npm install -g http-server
 
-    185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
+## How to run game
+http-server -o
+```
