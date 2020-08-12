@@ -26,7 +26,6 @@ function preload() {
 
 function setup() {
     createCanvas(displayWidth, displayHeight);
-
     // Create the Player sprite and add it's animations
     nfirst = createSprite(100, 284, 70, 94);
     nfirst.addAnimation('walk', nfirstwalk);
